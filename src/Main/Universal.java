@@ -1,4 +1,4 @@
-package jumpInstance;
+package Main;
 
 import interfaces.Jumping;
 import interfaces.Running;

@@ -13,38 +13,24 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:dev" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a29a361d-2772-4117-b990-30b71de09745" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DZ_all/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_all/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_all/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_all/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_all/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_all/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_all/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DZ_all/DZ_all.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../X0/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../X0/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../X0/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../X0/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../X0/X0.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../X0/out/production/X0/GB/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../X0/src/GB/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../catch_the_drop/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HELLO_WORLD/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HELLO_WORLD/HELLO_WORLD.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP_LESSON/OOP_LESSON.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../com.company.mivafox/com.company.mivafox.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guess_the_number/guess_the_number.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello_world/hello_world.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson_2/lesson_2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="a29a361d-2772-4117-b990-30b71de09745" name="Default Changelist" comment="rename" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +45,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -80,61 +72,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="jumpInstance.Main" />
+      <option name="MAIN_CLASS_NAME" value="Main.Main" />
       <module name="Java2" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Java2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Java2" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,6 +100,14 @@
       <option name="presentableId" value="Default" />
       <updated>1603783831476</updated>
     </task>
+    <task id="LOCAL-00001" summary="rename">
+      <created>1604014637549</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604014637549</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,12 +115,31 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename" />
   </component>
   <component name="WindowStateProjectService">
     <state x="512" y="198" width="342" height="437" key="#com.intellij.ide.util.MemberChooser" timestamp="1604004978388">
@@ -183,33 +156,45 @@
     </state>
     <state x="477" y="325" width="477" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604005955050" />
     <state x="716" y="433" width="487" height="229" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1603783914732" />
-    <state x="414" y="143" width="442" height="521" key="FileChooserDialogImpl" timestamp="1604009912420">
+    <state x="118" y="80" width="1024" height="655" key="DiffContextDialog" timestamp="1604014450329">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state x="414" y="143" width="442" height="521" key="FileChooserDialogImpl/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604009912420" />
+    <state x="118" y="80" width="1024" height="655" key="DiffContextDialog/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604014450329" />
+    <state x="414" y="143" width="442" height="521" key="FileChooserDialogImpl" timestamp="1604013243332">
+      <screen x="0" y="27" width="1280" height="773" />
+    </state>
+    <state x="414" y="143" width="442" height="521" key="FileChooserDialogImpl/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604013243332" />
     <state x="407" y="267" width="456" height="272" key="Github.CreatePullRequestDialog" timestamp="1604009748659">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
     <state x="407" y="267" width="456" height="272" key="Github.CreatePullRequestDialog/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604009748659" />
-    <state width="1234" height="192" key="GridCell.Tab.0.bottom" timestamp="1604009238378">
+    <state x="484" y="300" width="311" height="207" key="Github.ShareDialog" timestamp="1604013346188">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state width="1234" height="192" key="GridCell.Tab.0.bottom/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604009238378" />
+    <state x="484" y="300" width="311" height="207" key="Github.ShareDialog/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604013346188" />
+    <state x="338" y="69" width="594" height="668" key="Github.UntrackedFilesDialog" timestamp="1604013351967">
+      <screen x="0" y="27" width="1280" height="773" />
+    </state>
+    <state x="338" y="69" width="594" height="668" key="Github.UntrackedFilesDialog/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604013351967" />
+    <state width="1234" height="192" key="GridCell.Tab.0.bottom" timestamp="1604013013881">
+      <screen x="0" y="27" width="1280" height="773" />
+    </state>
+    <state width="1234" height="192" key="GridCell.Tab.0.bottom/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604013013881" />
     <state width="1874" height="340" key="GridCell.Tab.0.bottom/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1603834194552" />
-    <state width="1234" height="192" key="GridCell.Tab.0.center" timestamp="1604009238377">
+    <state width="1234" height="192" key="GridCell.Tab.0.center" timestamp="1604013013880">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state width="1234" height="192" key="GridCell.Tab.0.center/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604009238377" />
+    <state width="1234" height="192" key="GridCell.Tab.0.center/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604013013880" />
     <state width="1874" height="340" key="GridCell.Tab.0.center/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1603834194552" />
-    <state width="1234" height="192" key="GridCell.Tab.0.left" timestamp="1604009238377">
+    <state width="1234" height="192" key="GridCell.Tab.0.left" timestamp="1604013013880">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state width="1234" height="192" key="GridCell.Tab.0.left/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604009238377" />
+    <state width="1234" height="192" key="GridCell.Tab.0.left/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604013013880" />
     <state width="1874" height="340" key="GridCell.Tab.0.left/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1603834194551" />
-    <state width="1234" height="192" key="GridCell.Tab.0.right" timestamp="1604009238378">
+    <state width="1234" height="192" key="GridCell.Tab.0.right" timestamp="1604013013880">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state width="1234" height="192" key="GridCell.Tab.0.right/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604009238378" />
+    <state width="1234" height="192" key="GridCell.Tab.0.right/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604013013880" />
     <state width="1874" height="340" key="GridCell.Tab.0.right/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1603834194552" />
     <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1603834194553">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -227,6 +212,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="340" key="GridCell.Tab.1.right/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1603834194553" />
+    <state x="328" y="72" width="614" height="662" key="RollbackChangesDialog" timestamp="1604010408121">
+      <screen x="0" y="27" width="1280" height="773" />
+    </state>
+    <state x="328" y="72" width="614" height="662" key="RollbackChangesDialog/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604010408121" />
+    <state x="129" y="35" width="1022" height="737" key="SettingsEditor" timestamp="1604013310855">
+      <screen x="0" y="27" width="1280" height="773" />
+    </state>
+    <state x="129" y="35" width="1022" height="737" key="SettingsEditor/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604013310855" />
+    <state x="235" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604014565031">
+      <screen x="0" y="27" width="1280" height="773" />
+    </state>
+    <state x="235" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604014565031" />
+    <state x="423" y="314" width="433" height="179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604014270963">
+      <screen x="0" y="27" width="1280" height="773" />
+    </state>
+    <state x="423" y="314" width="433" height="179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604014270963" />
     <state x="361" y="241" width="1406" height="1009" key="dock-window-1" timestamp="1603807467380">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -235,6 +236,14 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="654" y="151" width="611" height="804" key="find.popup/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1603823716779" />
+    <state x="229" y="264" width="811" height="279" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604010271423">
+      <screen x="0" y="27" width="1280" height="773" />
+    </state>
+    <state x="229" y="264" width="811" height="279" key="git4idea.remote.GitConfigureRemotesDialog/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604010271423" />
+    <state x="10" y="27" width="1270" height="773" key="new project wizard" timestamp="1604011278020">
+      <screen x="0" y="27" width="1280" height="773" />
+    </state>
+    <state x="10" y="27" width="1270" height="773" key="new project wizard/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604011278020" />
     <state x="473" y="155" width="323" height="496" key="refactoring.ChangeSignatureDialog" timestamp="1604008525179">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
@@ -243,5 +252,9 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1603823648148" />
+    <state x="473" y="194" width="324" height="419" key="svn.repositoryBrowser" timestamp="1604010211231">
+      <screen x="0" y="27" width="1280" height="773" />
+    </state>
+    <state x="473" y="194" width="324" height="419" key="svn.repositoryBrowser/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604010211231" />
   </component>
 </project>
