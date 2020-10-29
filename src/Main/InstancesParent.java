@@ -1,16 +1,17 @@
-package jumpInstance;
+package Main;
 
-public class Instance
+public class InstancesParent
 {
         int run;
         String name;
 
-    public Instance(int run, String name)
+    public InstancesParent(int run, String name)
     {
         this.run = run;
         this.name = name;
     }
 
 
+-------
 
 }

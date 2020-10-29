@@ -1,9 +1,8 @@
-package jumpInstance;
+package Main;
 
 import instances.Cat;
 import instances.Human;
 import instances.Robot;
-import interfaces.Jumping;
 import interfaces.Running;
 import obstacles.Track;
 import obstacles.Wall;
@@ -49,6 +48,7 @@ public class Main {
             }
         }
         
+
 
 
 

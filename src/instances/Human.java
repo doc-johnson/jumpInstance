@@ -1,9 +1,9 @@
 package instances;
 
-import jumpInstance.Universal;
-import jumpInstance.Instance;
+import Main.Universal;
+import Main.InstancesParent;
 
-public class Human extends Instance implements Universal {
+public class Human extends InstancesParent implements Universal {
 
 int jump;
 
