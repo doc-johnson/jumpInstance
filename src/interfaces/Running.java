@@ -1,6 +1,6 @@
 package interfaces;
 
-public interface Running {
-
-    void run();
+public interface Running
+{
+    boolean run(Object obstacle);
 }

@@ -1,6 +1,6 @@
 package interfaces;
 
-public interface Jumping {
-
-     void jump();
+public interface Jumping
+{
+    boolean jump(Object obstacle);
 }
