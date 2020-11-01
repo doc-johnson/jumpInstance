@@ -27,4 +27,3 @@ public class Cat implements Universal // допустим у нас 30 инте�
         return Main.getJump(obstacle, height, name);
     }
 }
-
