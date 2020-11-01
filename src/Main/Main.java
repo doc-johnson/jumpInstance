@@ -8,10 +8,11 @@ import interfaces.Running;
 import obstacles.Track;
 import obstacles.Wall;
 
-public class Main {
+public class Main
+{
 
-    public static void main(String[] args) {
-
+    public static void main(String[] args)
+    {
         Human human = new Human(1, 100);
         Cat cat = new Cat(2, 90);
         Robot robot = new Robot(20, 500);
@@ -23,7 +24,8 @@ public class Main {
         toDo(instances, obstacles);
     }
 
-    public static void toDo(Object[] instances, Object[] obstacles) {
+    public static void toDo(Object[] instances, Object[] obstacles)
+    {
         for (Object instance : instances) {
             boolean check;
             for (Object obstacle : obstacles) {

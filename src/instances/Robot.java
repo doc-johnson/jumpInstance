@@ -3,7 +3,8 @@ package instances;
 import Main.Main;
 import Main.Universal;
 
-public class Robot implements Universal {
+public class Robot implements Universal
+{
     final String name = "Робот";
     protected int height;
     protected int length;

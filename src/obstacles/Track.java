@@ -1,6 +1,7 @@
 package obstacles;
 
-public class Track {
+public class Track
+{
     private final int length;
 
     public Track(int length)
