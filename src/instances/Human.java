@@ -1,25 +1,28 @@
 package instances;
 
+import Main.Main;
 import Main.Universal;
-import Main.InstancesParent;
 
-public class Human extends InstancesParent implements Universal {
+public class Human implements Universal {
+    final String name = "Человечешка";
+    protected int height;
+    protected int length;
 
-int jump;
-
-    public Human(int jump, int run, String name)
+    public Human(int height, int length)
     {
-        super(run, name);
-        this.jump = jump;
+        this.height = height;
+        this.length = length;
     }
 
     @Override
-    public void jump() {
-
+    public boolean run(Object obstacle)
+    {
+        return Main.getRun(obstacle, length, name);
     }
 
     @Override
-    public void run() {
-
+    public boolean jump(Object obstacle)
+    {
+        return Main.getJump(obstacle, height, name);
     }
 }

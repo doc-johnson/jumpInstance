@@ -1,25 +1,29 @@
 package instances;
 
 import Main.Universal;
-import Main.InstancesParent;
+import Main.Main;
 
-public class Cat extends InstancesParent implements Universal {
-int jump;
+public class Cat implements Universal { // допустим у нас 30 интерфейсов
+    final String name = "Кот";
+    protected int height;
+    protected int length;
 
-    public Cat(int jump, int run, String name)
+    public Cat(int height, int length)
     {
-        super(run, name);
-        this.jump = jump;
+        this.height = height;
+        this.length = length;
     }
 
     @Override
-    public void jump()
+    public boolean run(Object obstacle)
     {
-        System.out.println(" cat jump");
+        return Main.getRun(obstacle, length, name);
     }
 
     @Override
-    public void run()
+    public boolean jump(Object obstacle)
     {
+        return Main.getJump(obstacle, height, name);
     }
 }
+
