@@ -1,12 +1,12 @@
-package Main;
+package Lesson_1.Main;
 
-import instances.Cat;
-import instances.Human;
-import instances.Robot;
-import interfaces.Jumping;
-import interfaces.Running;
-import obstacles.Track;
-import obstacles.Wall;
+import Lesson_1.instances.Cat;
+import Lesson_1.interfaces.Running;
+import Lesson_1.instances.Human;
+import Lesson_1.instances.Robot;
+import Lesson_1.interfaces.Jumping;
+import Lesson_1.obstacles.Track;
+import Lesson_1.obstacles.Wall;
 
 public class Main
 {

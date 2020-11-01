@@ -31,13 +31,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a29a361d-2772-4117-b990-30b71de09745" name="Default Changelist" comment="final">
-      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Universal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Universal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/instances/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/instances/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/instances/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/instances/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/instances/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/instances/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obstacles/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/obstacles/Track.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obstacles/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/obstacles/Wall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java2/instances/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java2/instances/Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java2/instances/Robot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java2/interfaces/Jumping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java2/interfaces/Running.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java2/obstacles/Track.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java2/obstacles/Wall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_1/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Universal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_1/Main/Universal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/instances/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_1/instances/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/instances/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_1/instances/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/instances/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_1/instances/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Jumping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_1/interfaces/Jumping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Running.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_1/interfaces/Running.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obstacles/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_1/obstacles/Track.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obstacles/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_1/obstacles/Wall.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,9 +100,9 @@
       <recent name="instances" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main.Main" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_2.Main.Main" />
       <module name="Java2" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -101,8 +111,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.Main" />
+      <module name="Java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -131,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604227366202</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="final">
+      <created>1604228528074</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604228528074</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,25 +240,25 @@
       <screen x="0" y="27" width="1280" height="773" />
     </state>
     <state x="338" y="69" width="594" height="668" key="Github.UntrackedFilesDialog/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604013351967" />
-    <state width="1234" height="192" key="GridCell.Tab.0.bottom" timestamp="1604227001062">
+    <state width="1234" height="192" key="GridCell.Tab.0.bottom" timestamp="1604229236443">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state width="1234" height="192" key="GridCell.Tab.0.bottom/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604227001062" />
+    <state width="1234" height="192" key="GridCell.Tab.0.bottom/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604229236443" />
     <state width="1874" height="340" key="GridCell.Tab.0.bottom/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1603834194552" />
-    <state width="1234" height="192" key="GridCell.Tab.0.center" timestamp="1604227001062">
+    <state width="1234" height="192" key="GridCell.Tab.0.center" timestamp="1604229236442">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state width="1234" height="192" key="GridCell.Tab.0.center/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604227001062" />
+    <state width="1234" height="192" key="GridCell.Tab.0.center/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604229236442" />
     <state width="1874" height="340" key="GridCell.Tab.0.center/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1603834194552" />
-    <state width="1234" height="192" key="GridCell.Tab.0.left" timestamp="1604227001062">
+    <state width="1234" height="192" key="GridCell.Tab.0.left" timestamp="1604229236442">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state width="1234" height="192" key="GridCell.Tab.0.left/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604227001062" />
+    <state width="1234" height="192" key="GridCell.Tab.0.left/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604229236442" />
     <state width="1874" height="340" key="GridCell.Tab.0.left/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1603834194551" />
-    <state width="1234" height="192" key="GridCell.Tab.0.right" timestamp="1604227001062">
+    <state width="1234" height="192" key="GridCell.Tab.0.right" timestamp="1604229236442">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state width="1234" height="192" key="GridCell.Tab.0.right/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604227001062" />
+    <state width="1234" height="192" key="GridCell.Tab.0.right/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604229236442" />
     <state width="1874" height="340" key="GridCell.Tab.0.right/1920.0.1280.1024/0.27.1920.1053@0.27.1920.1053" timestamp="1603834194552" />
     <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1603834194553">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -253,14 +284,14 @@
       <screen x="0" y="27" width="1280" height="773" />
     </state>
     <state x="129" y="35" width="1022" height="737" key="SettingsEditor/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604015465730" />
-    <state x="235" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604227383116">
+    <state x="235" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604228552850">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state x="235" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604227383116" />
-    <state x="423" y="314" width="433" height="179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604015198868">
+    <state x="235" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604228552850" />
+    <state x="423" y="314" width="433" height="179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604228376381">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state x="423" y="314" width="433" height="179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604015198868" />
+    <state x="423" y="314" width="433" height="179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604228376381" />
     <state x="361" y="241" width="1406" height="1009" key="dock-window-1" timestamp="1603807467380">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

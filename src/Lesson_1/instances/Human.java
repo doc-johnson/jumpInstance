@@ -1,15 +1,15 @@
-package instances;
+package Lesson_1.instances;
 
-import Main.Universal;
-import Main.Main;
+import Lesson_1.Main.Main;
+import Lesson_1.interfaces.Universal;
 
-public class Cat implements Universal // допустим у нас 30 интерфейсов
+public class Human implements Universal
 {
-    final String name = "Кот";
+    final String name = "Человечешка";
     protected int height;
     protected int length;
 
-    public Cat(int height, int length)
+    public Human(int height, int length)
     {
         this.height = height;
         this.length = length;

@@ -1,15 +1,15 @@
-package instances;
+package Lesson_1.instances;
 
-import Main.Main;
-import Main.Universal;
+import Lesson_1.Main.Main;
+import Lesson_1.interfaces.Universal;
 
-public class Human implements Universal
+public class Robot implements Universal
 {
-    final String name = "Человечешка";
+    final String name = "Робот";
     protected int height;
     protected int length;
 
-    public Human(int height, int length)
+    public Robot(int height, int length)
     {
         this.height = height;
         this.length = length;

@@ -1,4 +1,4 @@
-package interfaces;
+package Lesson_1.interfaces;
 
 public interface Jumping
 {

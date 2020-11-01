@@ -1,4 +1,4 @@
-package obstacles;
+package Lesson_1.obstacles;
 
 public class Track
 {

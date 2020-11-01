@@ -1,15 +1,15 @@
-package instances;
+package Lesson_1.instances;
 
-import Main.Main;
-import Main.Universal;
+import Lesson_1.interfaces.Universal;
+import Lesson_1.Main.Main;
 
-public class Robot implements Universal
+public class Cat implements Universal // допустим у нас 30 интерфейсов
 {
-    final String name = "Робот";
+    final String name = "Кот";
     protected int height;
     protected int length;
 
-    public Robot(int height, int length)
+    public Cat(int height, int length)
     {
         this.height = height;
         this.length = length;
