@@ -5,5 +5,4 @@ import interfaces.Running;
 
 public interface Universal extends Running, Jumping
 {
-
 }

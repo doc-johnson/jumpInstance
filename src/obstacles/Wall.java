@@ -1,6 +1,7 @@
 package obstacles;
 
-public class Wall {
+public class Wall
+{
     private final int height;
 
     public Wall(int height)

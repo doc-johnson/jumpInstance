@@ -3,7 +3,8 @@ package instances;
 import Main.Universal;
 import Main.Main;
 
-public class Cat implements Universal { // допустим у нас 30 интерфейсов
+public class Cat implements Universal // допустим у нас 30 интерфейсов
+{
     final String name = "Кот";
     protected int height;
     protected int length;

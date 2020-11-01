@@ -30,27 +30,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a29a361d-2772-4117-b990-30b71de09745" name="Default Changelist" comment="rename">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/instances/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/instances/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/instances/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/instances/Human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/instances/Robot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/instances/Robot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/interfaces/Jumping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/interfaces/Jumping.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/interfaces/Running.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/interfaces/Running.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/jumpInstance/Instance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/jumpInstance/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/jumpInstance/Universal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/obstacles/Track.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/obstacles/Track.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java2/obstacles/Wall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java2/obstacles/Wall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/InstancesParent.java" beforeDir="false" />
+    <list default="true" id="a29a361d-2772-4117-b990-30b71de09745" name="Default Changelist" comment="final">
       <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Universal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Universal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/instances/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/instances/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/instances/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/instances/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/instances/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/instances/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Jumping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Jumping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/Running.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Running.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/obstacles/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/obstacles/Track.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/obstacles/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/obstacles/Wall.java" afterDir="false" />
     </list>
@@ -138,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604014637549</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="final">
+      <created>1604227366202</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604227366202</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,7 +162,8 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="rename" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="WindowStateProjectService">
     <state x="373" y="158" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1604224425092">
@@ -259,10 +252,10 @@
       <screen x="0" y="27" width="1280" height="773" />
     </state>
     <state x="129" y="35" width="1022" height="737" key="SettingsEditor/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604015465730" />
-    <state x="235" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604014565031">
+    <state x="235" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1604227383116">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state x="235" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604014565031" />
+    <state x="235" y="136" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1280.773/1280.0.1280.1024@0.27.1280.773" timestamp="1604227383116" />
     <state x="423" y="314" width="433" height="179" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604015198868">
       <screen x="0" y="27" width="1280" height="773" />
     </state>

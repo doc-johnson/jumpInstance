@@ -4,3 +4,4 @@ public interface Jumping
 {
     boolean jump(Object obstacle);
 }
+
