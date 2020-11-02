@@ -21,7 +21,7 @@ String[][] notIntArray = {{"9", "2", "1", "3"}, {"9", "2", "1", "3"}, {"9", "A",
                 System.err.println(e.getMessage());
             }
             try {
-                System.out.println("Сумма чисел массива: " + checkArr(array));
+                System.out.println("Сумма значений массива: " + checkArr(array));
             } catch (ParentException e) {
                 e.printStackTrace();
             }
