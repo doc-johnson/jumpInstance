@@ -25,18 +25,17 @@ String[][] notIntArray = {{"9", "2", "1", "3"}, {"9", "2", "1", "3"}, {"9", "A",
             } catch (ParentException e) {
                 e.printStackTrace();
             }
-
         }
 
-    public static int checkArr(String[][] array) throws MyArraySizeException, MyArrayDataException
+    public static int checkArr(String[][] arr) throws MyArraySizeException, MyArrayDataException
     {
         int sum = 0;
-        if (array.length != 4) throw new MyArraySizeException();
-        for (int i = 0; i < array.length; i++) {
-            if (array[i].length != 4) throw new MyArraySizeException();
-            for (int j = 0; j < array[i].length; j++) {
+        if (arr.length != 4) throw new MyArraySizeException();
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i].length != 4) throw new MyArraySizeException();
+            for (int j = 0; j < arr[i].length; j++) {
                 try {
-                    sum += Integer.parseInt(array[i][j]);
+                    sum += Integer.parseInt(arr[i][j]);
                 } catch (NumberFormatException a) {
                     throw new MyArrayDataException(i, j);
                 }
