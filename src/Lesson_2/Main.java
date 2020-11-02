@@ -5,17 +5,17 @@ public class Main
         public static void main(String[] args)
         {
 String[][] array = {{"9", "2", "1", "3"}, {"9", "2", "1", "3"}, {"9", "2", "1", "3"}, {"9", "2", "1", "3"}};
-String[][] badSizeArr = {{"9", "2", "1", "3"}, {"9", "2"}, {"9", "2", "1", "3"}, {"9", "2", "1", "3"}};
-String[][] charArray = {{"9", "2", "1", "3"}, {"9", "2", "1", "3"}, {"9", "A", "1", "3"}, {"9", "2", "1", "3"}};
+String[][] badArraySize = {{"9", "2", "1", "3"}, {"9", "2"}, {"9", "2", "1", "3"}, {"9", "2", "1", "3"}};
+String[][] notIntArray = {{"9", "2", "1", "3"}, {"9", "2", "1", "3"}, {"9", "A", "1", "3"}, {"9", "2", "1", "3"}};
 
             try {
-                checkArr(badSizeArr);
+                checkArr(badArraySize);
             }catch (ParentException e)
             {
                 System.err.println(e.getMessage());
             }
             try {
-                checkArr(charArray);
+                checkArr(notIntArray);
             }catch (ParentException e)
             {
                 System.err.println(e.getMessage());
