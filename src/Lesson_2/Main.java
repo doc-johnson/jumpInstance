@@ -25,7 +25,7 @@ String[][] notIntArray = {{"9", "2", "1", "3"}, {"9", "2", "1", "3"}, {"9", "A",
             } catch (ParentException e) {
                 e.printStackTrace();
             }
-        }
+         }
 
     public static int checkArr(String[][] arr) throws MyArraySizeException, MyArrayDataException
     {
